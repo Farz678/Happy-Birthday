@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Letter | Lila</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-song="Song\Edd_Sheeran_-_Perfect_(mp3.pm).mp3">
+  <div class="cursor-glow"></div>
+  <div class="floating-bg"></div>
+
+  <nav class="navbar glass">
+    <a href="index.html" class="logo">Lila</a>
+    <div class="nav-links">
+      <a href="memories.html">Memories</a>
+      <a href="reasons.html">Reasons</a>
+      <a href="letter.html">Letter</a>
+      <a href="cake.html">Cake</a>
+      <a href="final.html">Final</a>
+    </div>
+  </nav>
+
+  <div class="music-dock">
+  <button class="music-btn" id="musicBtn"
+          aria-label="Play or pause music"
+          title="Play / Pause music">
+    ♪
+  </button>
+
+  <button class="music-arrow" aria-label="Music controls">
+    <span>‹</span>
+  </button>
+</div>
+
+  <main class="letter-page">
+    <div class="envelope" id="envelope">
+    <div class="envelope-photos">
+    <img src="Foto/letter1.jpg" alt="Our memory 1">
+    <img src="Foto/letter2.jpg" alt="Our memory 2">
+    <img src="Foto/letter3.jpg" alt="Our memory 3">
+  </div>
+  <div class="env-body">
+  <span class="env-side-flower env-side-left">✿</span>
+  <span class="env-side-flower env-side-right">✿</span>
+</div>
+  <div class="flap"></div>
+  <div class="envelope-label">Click to open</div>
+</div>
+    <section class="letter-paper reveal delay-1" id="letterPaper">
+      <p class="script-text">Dear Lila,</p>
+      <p id="typedLetter"></p>
+    </section>
+  </main>
+
+  <footer class="footer">Written with all the love words could hold ✦</footer>
+  <script src="script.js"></script>
+</body>
+</html>
